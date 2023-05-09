@@ -1,0 +1,22 @@
+{% extends 'layouts/base.twig' %}
+
+{% set bannerData = [
+  {
+    title1: 'Web studio of effective',
+    title2: 'development',
+    sub_title: 'We build websites, tools and applications that offer beautiful web presence and ultimate user experience'
+  }
+] %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+  {% include 'modules/banner.twig' %}
+  {% include 'modules/partners.twig' %}
+  {% include 'modules/services.twig' %}
+{% endblock %}
+{% block footer %}
+
+{% endblock %}
